@@ -1,0 +1,153 @@
+@charset "utf-8";
+body {
+	background-image: url(imagens/fundo3.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 90vh;
+	font-family: "Arial", "Helvetica", "sans-serif"
+}
+
+.titulo {
+	background-color: #0a0a0ac5;
+	color: #ffffff;
+	text-align: center;
+	position:absolute;
+	top: 10%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px;
+	border-radius: 15px;
+}
+
+#link {
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+.login {
+	background-color: #0a0a0ac5;
+	color: #ffffff;
+	text-align: center;
+	position:absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 30px;
+	border-radius: 15px;
+}
+
+.botoes {
+	position: absolute;
+	color: #ffffff;
+	left: 80%;
+	top: 5%;
+	transform: translate(-50%,-50%);
+	padding: 15px;
+	border-radius: 15px;
+}
+
+.botsup {
+	color: #ffffff;
+	text-decoration: none;
+	border: 3px solid #d1c2c1;
+	background-color: #80453E;
+	padding: 10px;
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+.box {
+	background-color: #0a0a0ac5;
+	position: absolute;
+	color: #ffffff;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	padding: 15px;
+	border-radius: 15px;
+}
+
+fieldset{
+	border: 3px solid #d1c2c1;
+}
+
+legend{
+	background-color: #80453E;
+	border: 1px solid #ffffff;
+	padding: 10px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 8px;
+}
+
+.inputBox {
+	position: relative;
+}
+
+.inputUser {
+	background: none;
+	border: none;
+	border-bottom: 1px solid white;
+	outline: none;
+	color: white;
+	font-size: 15px;
+	width: 100%;
+	letter-spacing: 2px;
+}
+
+.labelInput {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	pointer-events: none;
+	transition: .5s;
+}
+
+.inputUser:focus ~ .labelInput,
+.inputUser:valid ~ .labelInput {
+	top: -20px;
+	font-size: 12px;
+	color: #d1c2c1;
+}
+
+.log {
+	padding: 15px;
+	border: none;
+	outline: none;
+	font-size: 15px;
+}
+
+.enviar {
+	color: #ffffff;
+	border: none;
+	background-color: #80453E;
+	padding: 15px;
+	width: 100%;
+	border-radius: 10px;
+	font-size: 15px;
+}
+
+.enviar:hover {
+	background-color: #805b57;
+	cursor: pointer;
+}
+
+.botsup:hover {
+	background-color: #805b57;
+	cursor: pointer;
+}
+
+#submit:hover {
+	background-color: #805b57;
+	cursor: pointer;
+}
+
+#data_nascimento {
+	border: none;
+	padding: 8px;
+	border-radius: 10px;
+	outline: none;
+	font-size: 15px;
+}
